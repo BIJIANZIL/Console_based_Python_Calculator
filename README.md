@@ -31,4 +31,4 @@ The program calculates and displays the result (e.g., Result: 8.0).
 
 **UseCaseDiagram**
 
-![Use case diagram](C:/Users/BIJIANZ/myproject.png "USE CASE DIAGRAM")
+![usecasediagram](C:/Users/Biji/PROJ/usecasediagram.png "USE CASE DIAGRAM")
