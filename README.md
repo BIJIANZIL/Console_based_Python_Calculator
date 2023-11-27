@@ -29,24 +29,6 @@ The program calculates and displays the result (e.g., Result: 8.0).
 **UML**
 ````
 
-**1.Use Case Diagram**
+**UseCaseDiagram**
 
-````
-pip install boto
-````
-
-The above formatting is used to create a box which can display code or command in a well formatted manner.
-
-
-## Usage
-
-Below is another example of displaying
-````python
-import csv
-
-with open("sample.csv","r") as csvinput: # read input csv file
-    reader = csv.reader(csvinput) # create a reader
-    for row in reader:
-        print(row[0])
-````
 ![Use case diagram](C:/Users/BIJIANZ/myproject.png "USE CASE DIAGRAM")
