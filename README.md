@@ -31,5 +31,5 @@ The program calculates and displays the result (e.g., Result: 8.0).
 
 **UseCaseDiagram**
 
-'![usecasediagram](images/usecasediagram.png?raw = true)'
+'![usecasediagram](usecasediagram.png?raw = true)'
 
