@@ -28,5 +28,5 @@ The program calculates and displays the result (e.g., Result: 8.0).
 
 **UseCaseDiagram**
 
-![Use Case Diagram](usecasediagram.png)
+![flower](beautiful-flowers-basket.webp)
 
