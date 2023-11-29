@@ -28,5 +28,5 @@ The program calculates and displays the result (e.g., Result: 8.0).
 
 **UseCaseDiagram**
 
-![Image](https://github.com/BIJIANZIL/my_project/blob/39366f7cdebe09f83ac49bc63f4ed5212e8c9f15/Activity%20Diagram.png)
+![Image](usecasediagram.png)
 
