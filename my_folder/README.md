@@ -13,8 +13,7 @@ Enter 'multiply' for multiplication
 Enter 'divide' for division
 Enter 'quit' to end the program
 ```plaintext
-
-#UseCaseDiagram
+## Usecasediagram
 
 <img src="usecasediagram.png" width ="350" height ="350">
 
