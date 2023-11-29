@@ -2,5 +2,5 @@
 
 
 **UseCaseDiagram**
-<img src="usecasediagram.png" width ="150" height ="150">
+<img src="usecasediagram.png" width ="250" height ="250">
 
