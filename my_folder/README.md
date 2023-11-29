@@ -14,7 +14,7 @@ Enter 'divide' for division
 Enter 'quit' to end the program
 ```plaintext
 
-**UseCaseDiagram**
+#UseCaseDiagram
 
 <img src="usecasediagram.png" width ="350" height ="350">
 
