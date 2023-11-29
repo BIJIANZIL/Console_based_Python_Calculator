@@ -28,5 +28,5 @@ The program calculates and displays the result (e.g., Result: 8.0).
 
 **UseCaseDiagram**
 
-![Image]('usecasediagram.png'width='50'height='50')
+<Image src= "usecasediagram.png"width="50"height="50">
 
