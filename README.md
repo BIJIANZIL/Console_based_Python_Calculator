@@ -25,9 +25,6 @@ User types add to select addition.
 The program asks for the first number (e.g., 5).
 The program asks for the second number (e.g., 3).
 The program calculates and displays the result (e.g., Result: 8.0).
-````
-**UML**
-````
 
 **UseCaseDiagram**
 
