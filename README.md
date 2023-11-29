@@ -28,5 +28,5 @@ The program calculates and displays the result (e.g., Result: 8.0).
 
 **UseCaseDiagram**
 
-![flower](beautiful-flowers-basket.webp)
+![flower]([beautiful-flowers-basket.webp](https://www.fnp.ae/images/pr/l/v20200110204404/beautiful-flowers-basket_1.jpg)https://www.fnp.ae/images/pr/l/v20200110204404/beautiful-flowers-basket_1.jpg)
 
