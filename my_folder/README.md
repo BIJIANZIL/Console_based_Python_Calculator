@@ -12,6 +12,7 @@ Enter 'subtract' for subtraction
 Enter 'multiply' for multiplication
 Enter 'divide' for division
 Enter 'quit' to end the program
+```plaintext
 **UseCaseDiagram**
 <img src="usecasediagram.png" width ="350" height ="350">
 
