@@ -36,6 +36,6 @@ Enter 'quit' to end the program
 >> Enter operation: quit
 >> Program terminated.
 
-## Usecase Diagram
+### USE CASE DIAGRAM
 
 ![Image](usecasediagram.png)
