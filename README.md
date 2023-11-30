@@ -46,4 +46,4 @@ Enter 'quit' to end the program
 ``````
 # Use Case Diagram
 
-![Image](Use case diagram.png)
+![Image](usecasediagram.png)
