@@ -12,11 +12,11 @@ A basic command-line calculator implemented in Python.
 
 To use the calculator, follow these steps:
 
-1. Enter the desired operation:
-   - Type `add` for addition
-   - Type `subtract` for subtraction
-   - Type `multiply` for multiplication
-   - Type `divide` for division
+1. Enter the desired operation:(Select Desired operation)
+   - Type `1 for addition
+   - Type `2` for subtraction
+   - Type `3` for multiplication
+   - Type `4` for division
    - Type `quit` to end the program
 
 2. Follow the prompts to enter the necessary values.
@@ -24,18 +24,13 @@ To use the calculator, follow these steps:
 ### Examples
 
 ```plaintext
-Enter 'add' for addition
-Enter 'subtract' for subtraction
-Enter 'multiply' for multiplication
-Enter 'divide' for division
-Enter 'quit' to end the program
 
->> Enter operation: add
+>> Enter operation: 1
 >> Enter first number: 5
 >> Enter second number: 3
 >> Result: 8
 
->> Enter operation: divide
+>> Enter operation: 4
 >> Enter first number: 10
 >> Enter second number: 0
 >> Error: Cannot divide by zero. Please enter a valid divisor.
