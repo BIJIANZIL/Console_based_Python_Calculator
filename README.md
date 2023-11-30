@@ -1,3 +1,3 @@
 ## Usecase Diagram
 
-![Image](my_folder/usecasediagram.png)
+![Image](usecasediagram.png)
