@@ -45,5 +45,5 @@ Enter 'quit' to end the program
 
 ## Usecasediagram
 
-<img src="my_folder/usecasediagram.png" width ="350" height ="350">
+![image](my_folder/usecasediagram.png" width ="50" height ="50")
 
