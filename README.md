@@ -44,6 +44,20 @@ Enter 'quit' to end the program
 >> Program terminated.
 
 ``````
-# Use Case Diagram
+# UML
+
+# 1.Use Case Diagram
 
 ![Image](usecasediagram.png)
+
+# 2.Activity Diagram
+
+![Image](activitydiagram.png)
+
+# 3.Sequence Diagram
+
+![Image](sequencediagram.png)
+
+# DDD
+
+# METRICS
