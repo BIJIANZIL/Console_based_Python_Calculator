@@ -45,5 +45,8 @@ Enter 'quit' to end the program
 
 ## Usecasediagram
 
-![image](my_folder/usecasediagram.png" width ="50" height ="50")
+## Usecase Diagram
+
+![Image](my_folder/usecasediagram.png)
+
 
