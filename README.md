@@ -52,11 +52,11 @@ Enter 'quit' to end the program
 
 # 2.Activity Diagram
 
-![Image](activitydiagram.png)
+![Image1](activitydiagram.png)
 
 # 3.Sequence Diagram
 
-![Image](sequencediagram.png)
+![Image2](sequencediagram.png)
 
 # DDD
 
