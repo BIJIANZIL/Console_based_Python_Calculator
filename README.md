@@ -1,3 +1,10 @@
+# Simple Python Calculator
+
+A basic command-line calculator implemented in Python.
+
+## Features
+
+- Basic arithmetic operations: addition, subtraction, multiplication, and division.
 - User-friendly command-line interface.
 - Handles division by zero gracefully.
 
@@ -36,6 +43,7 @@ Enter 'quit' to end the program
 >> Enter operation: quit
 >> Program terminated.
 
-### **USE CASE DIAGRAM**
+``````
+# Use Case Diagram
 
 ![Image](usecasediagram.png)
