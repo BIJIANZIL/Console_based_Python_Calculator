@@ -56,3 +56,10 @@ To use the calculator, follow these steps:
 # DDD
 
 # METRICS
+
+##SonarQube is a code review tool that systematically helps us deliver Clean Code.It checks for bugs and vulnerabilities in the project and provide recommendations to resolve the code smells.
+Below are the snippets of metrics:
+
+![Image](Sonarqube1.png)
+
+![Image](SonarQube2.png)
