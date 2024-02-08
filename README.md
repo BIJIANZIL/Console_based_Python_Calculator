@@ -39,7 +39,7 @@ To use the calculator, follow these steps:
 >> Program terminated.
 
 ``````
-# UML
+# 2.UML
 
 # 1.Use Case Diagram
 
@@ -53,7 +53,9 @@ To use the calculator, follow these steps:
 
 ![Image2](sequencediagram.png)
 
-# DDD
+# 3.DDD
+
+![Image](domaindiagram.png)
 
 # METRICS
 
