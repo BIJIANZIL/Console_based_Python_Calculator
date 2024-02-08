@@ -57,7 +57,7 @@ To use the calculator, follow these steps:
 
 ![Image](domaindiagram.png)
 
-# METRICS
+# 4.METRICS
 
 SonarQube is a code review tool that systematically helps us deliver Clean Code.It checks for bugs and vulnerabilities in the project and provide recommendations to resolve the code smells.
 Below are the snippets of metrics:
@@ -66,7 +66,7 @@ Below are the snippets of metrics:
 
 ![Image](SonarQube2.png)
 
-# Clean Code Development
+# 5.Clean Code Development
 
 # 1.Modular Design
 In the calculator code,functions like add,subtract etc handle specific arithmetic operation.This aligns with the Single responsibility Principle(SRP),making the code modular and easy to maintain.Each function can be modified independently without affecting others.
@@ -84,6 +84,27 @@ The program provides clear prompts and messages to guide the user through each s
 # 5.Comments
 Although the code is self-explanatory,few comments have been added to help someone understand the easiest way possible.
 
-# Build Management
+# 6.Build Management
+
+
+
+# 7.Continous Delivery
+
+
+
+# 8.Unit Tests
+
+# 9.IDE
+
+
+
+
+# 10.DSL
+
+
+# 11.Functional Programming
+
+
+
 
 
