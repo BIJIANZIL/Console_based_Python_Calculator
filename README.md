@@ -45,7 +45,7 @@ To use the calculator, follow these steps:
 
 ![Image](usecasediagram.png)
 
-# 2.Activity Diagram
+# 2.[**Activity Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/activitydiagram.png)
 
 ![Image1](activitydiagram.png)
 
