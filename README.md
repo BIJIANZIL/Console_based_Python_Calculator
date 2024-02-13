@@ -1,12 +1,13 @@
-# Simple Python Calculator
+# Console based Python Calculator
 
-A basic command-line calculator implemented in Python.
+A basic console based calculator implemented in Python.
 
 ## Features
 
-- Basic arithmetic operations: addition, subtraction, multiplication, and division.
+- Basic arithmetic operations: addition, subtraction, multiplication,division,exponentiation, square root, and modulus.
 - User-friendly command-line interface.
 - Handles division by zero gracefully.
+- Ability to view calculation History.
 
 ## Usage
 
@@ -17,7 +18,11 @@ To use the calculator, follow these steps:
    - Type `2` for subtraction
    - Type `3` for multiplication
    - Type `4` for division
-   - Type `quit` to end the program
+   - Type `5` for Power
+   - Type `6` for Squareroot
+   - Type `7` for Modulus
+   - Type `8` for Calculation History
+   - Type `9` to Exit
 
 2. Follow the prompts to enter the necessary values.
 
@@ -35,23 +40,27 @@ To use the calculator, follow these steps:
 >> Enter second number: 0
 >> Error: Cannot divide by zero. Please enter a valid divisor.
 
->> Enter operation: quit
->> Program terminated.
+>> Enter operation: 9
+>> Exiting Calculator. Goodbye
 
 ``````
 # 2.UML
 
-# 1.Use Case Diagram
+# 1.[**Use Case Diagram**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/usecasediagram.png)
+Here ,I have used lucid chart to basically design the Use Case Diagram.Here this basically gives the rough/basic structure of my project.It is actually a visual representation of how users interact with teh system.It shows the different use cases and different types of users the system has.In this project ,some use cases are performing calculations,view calculation history,handling invalid input etc.
 
 ![Image](usecasediagram.png)
 
 # 2.[**Activity Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/activitydiagram.png)
+Activity diagram clearly shows every single step taken within this use case diagram,It represents the flow of control in the system and refer to the steps involved in the execution of each use case.In the activity diagram ,I have shown the control flow from start point to a finish point showing various decision paths that exit while activity is being executed.
 
 ![Image1](activitydiagram.png)
 
-# 3.Sequence Diagram
+# 3.[**Sequence Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/sequencediagram.png)
+In sequence diagram,communication between objects is illustrated using messages and we represent messages using arrows and represent the interaction between the objects in the order in which these interactions occur.
 
 ![Image2](sequencediagram.png)
+
 
 # 3.DDD
 
@@ -104,6 +113,7 @@ First I have created a new Gradle Project with Java as language and created Java
 # 8.Unit Tests
 Unit test was also performed using Gradle on the same Java program.<br/>
 ![Test](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/Test.png)
+![classmaintestresult]https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/classmaintestresult.png
 
 
 # 9.IDE
@@ -112,6 +122,10 @@ Unit test was also performed using Gradle on the same Java program.<br/>
 
 
 # 10.DSL
+Following is the snippet of Domain Specific language written in Groovy.
+This is used to run the Java application on Gradle.
+![image][https://github.com/BIJIANZIL/gradledemo/blob/master/build.gradle]
+![groovydsl](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/groovydsl.png)
 
 
 # 11.Functional Programming
