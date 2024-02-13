@@ -85,6 +85,11 @@ The program provides clear prompts and messages to guide the user through each s
 Although the code is self-explanatory,few comments have been added to help someone understand the easiest way possible.
 
 # 6.Build Management
+To understand build management, I have selected Gradle build automation tool that supports multiple languages . It controls the development process in the tasks of compilation and packaging to testing,deployment and publishing.I set up a simple project in IntelliJ IDEA IDE running "Hello, World!" program in Java and used Groovy DSL (scripting build configurations ) and  generated documentation, and run the tests.
+
+First I have created a new Gradle Project with Java as language and created Java class and wrote main.java program to print "Hello, World!".And wrote test class -MainTest to check if it is functioning properly.Understanding build.gradle-here is where is we define our project's configuration, dependencies, and tasks. IntelliJ IDEA provides excellent support for Gradle projects. Gradle provides tasks for running tests, such as the test task. We can execute this task to run all the tests in our project.<br/>
+![gradlebuild](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/gradlebuild.png)
+
 
 
 
