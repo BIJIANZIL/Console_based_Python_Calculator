@@ -107,7 +107,8 @@ First I have created a new Gradle Project with Java as language and created Java
 
 
 # 7.Continous Delivery
-
+Continous Integration is implemented by using GitHub Actions
+![ci](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/ci.png)
 
 
 # 8.Unit Tests
