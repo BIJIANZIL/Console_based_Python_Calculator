@@ -144,8 +144,11 @@ Below is the snapshhot for DSL demo:
 Side-effect free functions are functions that do not modify any external state or have observable interactions with the outside world beyond returning a value.
 In my code,most of the functions defined like add(x,y),divide(x,y) are side effect free.These functions only perform calculations or formatting without interacting with external resources or modifying any global state.
 
-```def add(x, y):
-    return x + y```
+```
+def add(x, y):
+    return x + y
+```
+
 
 [2.Use of Higher order functions:](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/6b842c97f71e17f0076e62f69412e8716a2f6cd8/main.py#L78)
 
