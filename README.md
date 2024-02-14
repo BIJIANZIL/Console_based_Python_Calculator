@@ -166,7 +166,7 @@ operations = {
 }
 ```
 
-[3.Functions as parameters and return values:]
+# [3.Functions as parameters and return values:]
 
 In this code ,I didnt incorporate functions as parameters and return values.But I can incorporate as following,in which one way is to allow users to specify a custom function for certain operations.Within the main() function , we can prompt the user if they want to use a custom operation and accept the function from the user.
 
@@ -175,7 +175,7 @@ def custom_operation(x, y, operation_func):
     return operation_func(x, y)
 ```
 
-[Functions as Return Values:]
+# [Functions as Return Values:]
 I can define  a function that returns different operations based on certain conditions:Si ,it can return functions as values.
 
 ```
@@ -189,7 +189,7 @@ def get_operation(choice):
 
 As my main code doesnt include all these function, I wrote another code illustrationg following points:
 
-[Only final data stuctures:] 
+# [Only final data stuctures:] 
 
 Illustrating the  power of functions in performing different operations on a list of numbers, focusing only on the final data structures.
 
@@ -213,7 +213,7 @@ for result in results:
     print(result)
 ```
 
-[Use of closures/anonymous functions]:
+# [Use of closures/anonymous functions]:
 
 Below is an example using closures and anonymous functions (lambda functions):
 
