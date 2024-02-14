@@ -93,6 +93,16 @@ The program provides clear prompts and messages to guide the user through each s
 # 5.Comments
 Although the code is self-explanatory,few comments have been added to help someone understand the easiest way possible.
 
+# 6.Separation of concerns:
+Different concerns such as user input handling, menu display, operation execution, and calculation history management are separated into distinct functions. This promotes code organization and maintainability.
+
+# 7.Testing:
+
+Write comprehensive unit tests to verify the correctness of code and catch bugs early in the development process. Automated testing helps ensure code reliability and maintainability.
+
+
+
+
 # 6.Build Management
 To understand build management, I have selected Gradle build automation tool that supports multiple languages . It controls the development process in the tasks of compilation and packaging to testing,deployment and publishing.I set up a simple project in IntelliJ IDEA IDE running "Hello, World!" program in Java and used Groovy DSL (scripting build configurations ) and  generated documentation, and run the tests.
 
