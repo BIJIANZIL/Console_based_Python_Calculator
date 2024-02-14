@@ -128,6 +128,8 @@ Unit test was also performed using Gradle on the same Java program.<br/>
 
 
 # 9.IDE
+Eventhough most frequently used IDE is Jupyter Notebook,here I would like to get fluent with Pycharm.
+Below are the most favourite shortkeys I would liekto mention.
 
 
 
