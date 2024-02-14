@@ -154,7 +154,8 @@ def add(x, y):
 
 Regarding the use of higher-order functions, my code doesn't explicitly use higher-order functions. I have used dictionary (operations) to map user choices to corresponding functions. Although not a typical use of higher-order functions like map, filter, or reduce,the concept of higher-order functions involves functions that can accept other functions as arguments or return functions as results. The dictionary operations is essentially a mapping of operations to functions,  allowing them to be stored in data structures and passed around.
 
-```operations = {
+```
+operations = {
     '1': add,
     '2': subtract,
     '3': multiply,
@@ -162,8 +163,86 @@ Regarding the use of higher-order functions, my code doesn't explicitly use high
     '5': power,
     '6': square_root,
     '7': modulus
-}```
+}
+```
 
+[3.Functions as parameters and return values:]
 
+In this code ,I didnt incorporate functions as parameters and return values.But I can incorporate as following,in which one way is to allow users to specify a custom function for certain operations.Within the main() function , we can prompt the user if they want to use a custom operation and accept the function from the user.
 
+```
+def custom_operation(x, y, operation_func):
+    return operation_func(x, y)
+```
+
+[Functions as Return Values:]
+I can define  a function that returns different operations based on certain conditions:Si ,it can return functions as values.
+
+```
+def get_operation(choice):
+    if choice == '1':
+        return add
+    elif choice == '2':
+        return subtract
+    # Other operations...
+```
+
+As my main code doesnt include all these function, I wrote another code illustrationg following points:
+
+[Only final data stuctures:] 
+
+Illustrating the  power of functions in performing different operations on a list of numbers, focusing only on the final data structures.
+
+```
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Define a list of operations
+operations = [
+    lambda numbers: sum(numbers),                  # Sum of numbers
+    lambda numbers: eval('*'.join(map(str, numbers))),   # Product of numbers
+    lambda numbers: [num ** 2 for num in numbers]  # Square of each number
+]
+
+# Perform operations on the list of numbers
+results = [operation(numbers) for operation in operations]
+
+# Print the results
+print("Results:")
+for result in results:
+    print(result)
+```
+
+[Use of closures/anonymous functions]:
+
+Below is an example using closures and anonymous functions (lambda functions):
+
+```
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Define a list of operations using closures and anonymous functions
+def sum_operation(numbers):
+    return sum(numbers)
+
+def product_operation(numbers):
+    return eval('*'.join(map(str, numbers)))
+
+def square_operation(numbers):
+    return [num ** 2 for num in numbers]
+
+operations = [
+    lambda numbers: sum_operation(numbers),      # Sum of numbers
+    lambda numbers: product_operation(numbers),  # Product of numbers
+    lambda numbers: square_operation(numbers)    # Square of each number
+]
+
+# Perform operations on the list of numbers
+results = [operation(numbers) for operation in operations]
+
+# Print the results
+print("Results:")
+for result in results:
+    print(result)
+```
 
