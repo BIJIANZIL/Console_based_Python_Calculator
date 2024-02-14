@@ -123,10 +123,16 @@ Unit test was also performed using Gradle on the same Java program.<br/>
 
 
 # 10.DSL
+
+While I was learning about DSL,I found this info most suitable for the understanding of DSL."If you wrote instructions to a paper which only some person or best friend can understand and no one else could .Then it may be a DSL.But if you wrote instruction in such terms which many people could understand and could follow then this is not DSL.
+Domain Specific Languages allow us to capture complex business requirements in code written in the language of the customer.Once an ubiquitous language between you and your customer is defined and implemented as DSL,the code can quite literally be given back to the customer to edit and refine.
+
+Here I have made a daily expense tracker to record expenses ,view it and calculate the total expense with DSL and the Python code .Run in cmd by python daily_expense.py expense_tracker.dsl
 Following is the snippet of Domain Specific language written in Groovy.
-This is used to run the Java application on Gradle.
-![image][https://github.com/BIJIANZIL/gradledemo/blob/master/build.gradle]
-![groovydsl](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/groovydsl.png)
+Below is the snapshhot for DSL demo:
+
+![dsldemo][https://github.com/BIJIANZIL/gradledemo/blob/master/dsldemo]
+
 
 
 # 11.Functional Programming
