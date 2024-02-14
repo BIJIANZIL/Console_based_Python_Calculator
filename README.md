@@ -139,6 +139,25 @@ Below is the snapshhot for DSL demo:
 
 # 11.Functional Programming
 
+[1.Side Effect Free functions:](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/6b842c97f71e17f0076e62f69412e8716a2f6cd8/main.py#L18
+
+Side-effect free functions are functions that do not modify any external state or have observable interactions with the outside world beyond returning a value.
+In my code,most of the functions defined like add(x,y),divide(x,y) are side effect free.These functions only perform calculations or formatting without interacting with external resources or modifying any global state.
+```def add(x, y):
+    return x + y```
+
+[2.Use of Higher order functions:](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/6b842c97f71e17f0076e62f69412e8716a2f6cd8/main.py#L78)
+Regarding the use of higher-order functions, my code doesn't explicitly use higher-order functions. I have used dictionary (operations) to map user choices to corresponding functions. Although not a typical use of higher-order functions like map, filter, or reduce,the concept of higher-order functions involves functions that can accept other functions as arguments or return functions as results. The dictionary operations is essentially a mapping of operations to functions,  allowing them to be stored in data structures and passed around.
+
+```operations = {
+    '1': add,
+    '2': subtract,
+    '3': multiply,
+    '4': divide,
+    '5': power,
+    '6': square_root,
+    '7': modulus
+}```
 
 
 
