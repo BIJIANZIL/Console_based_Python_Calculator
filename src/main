@@ -1,51 +1,36 @@
 import math
 
-
-# Welcome Message
 def welcome():
     print('''
 Welcome to Advanced Calculator
 ''')
 
-
-# Define our functions for various mathematical operations
 def add(x, y):
     return x + y
-
 
 def subtract(x, y):
     return x - y
 
-
 def multiply(x, y):
     return x * y
 
-
 def divide(x, y):
-    if y == 0:
+    try:
+        result = x / y
+        return result
+    except ZeroDivisionError:
         return "Error: Cannot divide by zero"
-    else:
-        return x / y
-
 
 def power(x, y):
     return x ** y
 
-
 def square_root(x):
     return math.sqrt(x)
-
 
 def modulus(x, y):
     return x % y
 
-
-# List to store calculation history
-calculation_history = []
-
-
-# Display menu options
-def display_menu():
+def print_menu():
     print("Select operation.")
     print("1. Add")
     print("2. Subtract")
@@ -55,99 +40,86 @@ def display_menu():
     print("6. Square Root")
     print("7. Modulus")
     print("8. View Calculation History")
-    print("9. Exit")
 
+def get_user_choice():
+    return input("Enter choice(1/2/3/4/5/6/7/8): ")
 
-# Function to handle user input validation for choice
-def get_choice():
+def get_numbers_from_user(choice):
+    num1 = float(input("Enter first number: "))
+    if choice != '6':
+        num2 = float(input("Enter second number: "))
+        return num1, num2
+    return num1, None
+
+def save_calculation(choice, num1, num2, result):
+    if choice == '6':
+        calculation_str = f"sqrt({num1}) = {result}"
+    else:
+        calculation_str = f"{num1} {['+', '-', '*', '/', '**', 'sqrt', '%'][int(choice) - 1]} {num2} = {result}"
+    calculation_history.append(calculation_str)
+
+def perform_operation(choice, num1, num2):
+    if choice == '1':
+        return add(num1, num2)
+    elif choice == '2':
+        return subtract(num1, num2)
+    elif choice == '3':
+        return multiply(num1, num2)
+    elif choice == '4':
+        return divide(num1, num2)
+    elif choice == '5':
+        return power(num1, num2)
+    elif choice == '6':
+        return square_root(num1)
+    elif choice == '7':
+        return modulus(num1, num2)
+
+def print_result(result):
+    print("Result:", result)
+
+def do_another_calculation():
     while True:
-        choice = input("Enter choice(1/2/3/4/5/6/7/8/9): ")
-        if choice in ('1', '2', '3', '4', '5', '6', '7', '8', '9'):
-            return choice
+        next_calculation = input("Let's do the next calculation? (yes/no): ")
+        if next_calculation.lower() in ["yes", "no"]:
+            return next_calculation.lower() == "yes"
         else:
-            print("Invalid input. Please enter a valid choice.")
+            print("Invalid input. Please enter 'yes' or 'no'.")
 
+def view_calculation_history():
+    if not calculation_history:
+        print("No calculations in history.")
+    else:
+        print("Calculation History:")
+        for calculation in calculation_history:
+            print(calculation)
+        print()
 
-# Dictionary mapping choices to functions
-operations = {
-    '1': add,
-    '2': subtract,
-    '3': multiply,
-    '4': divide,
-    '5': power,
-    '6': square_root,
-    '7': modulus
-}
+calculation_history = []
 
+welcome()
 
-# Main loop for calculator functionality
-def main():
-    welcome()
-    while True:
-        display_menu()
-        choice = get_choice()
+while True:
+    print_menu()
+    choice = get_user_choice()
 
-        if choice == '9':
-            print("Exiting Calculator. Goodbye!")
-            break
-        elif choice == '8':
-            if not calculation_history:
-                print("No calculations in history.")
-            else:
-                print("Calculation History:")
-                for calculation in calculation_history:
-                    print(calculation)
-                print()
+    if choice in ('1', '2', '3', '4', '5', '6', '7', '8'):
+        if choice == '8':
+            view_calculation_history()
             continue
 
         try:
-            num1 = float(input("Enter first number: "))
-            if choice != '6':
-                num2 = float(input("Enter second number: "))
+            num1, num2 = get_numbers_from_user(choice)
         except ValueError:
             print("Invalid input. Please enter a number.")
             continue
 
-        operation = operations[choice]
-        if choice == '6':
-            result = operation(num1)
-        else:
-            result = operation(num1, num2)
+        result = perform_operation(choice, num1, num2)
+        print_result(result)
 
-        print_result(result, choice)
+        save_calculation(choice, num1, num2, result)
 
-        calculation_str = generate_calculation_str(result, choice, num1, num2)
-        calculation_history.append(calculation_str)
-
-        next_calculation = get_next_calculation()
-        if next_calculation.lower() == "no":
-            print("Exiting Calculator. Goodbye!")
+        if not do_another_calculation():
             break
-
-
-def print_result(result, choice):
-    if choice == '6':
-        print("Result: {:.2f}".format(result))
     else:
-        print("Result:", result)
-
-
-def generate_calculation_str(result, choice, num1, num2=None):
-    if choice == '6':
-        return f"sqrt({num1}) = {result:.2f}"
-    else:
-        return f"{num1} {'+-*/^sqrt%'[int(choice) - 1]} {num2} = {result}"
-
-
-def get_next_calculation():
-    while True:
-        next_calculation = input("Let's do the next calculation? (yes/no): ")
-        if next_calculation.lower() in ["yes", "no"]:
-            return next_calculation
-        else:
-            print("Invalid input. Please enter 'yes' or 'no'.")
-
-
-if __name__ == "__main__":
-    main()
+        print("Invalid Input")
 
