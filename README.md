@@ -115,7 +115,8 @@ To understand build management, I have selected Gradle build automation tool tha
 
 First I have created a new Gradle Project with Java as language and created Java class and wrote main.java program to print "Hello, World!".And wrote test class -MainTest to check if it is functioning properly.Understanding build.gradle- here is where is we define our project's configuration, dependencies, and tasks. IntelliJ IDEA provides excellent support for Gradle projects. Gradle provides tasks for running tests, such as the test task. We can execute this task to run all the tests in our project.<br/> . I have generated documents as well(./gradlew Javadoc)
 # Build.gradle
-![gradlebuild](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/gradlebuild.png
+
+![gradlebuild](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/gradlebuild.png)
 
 # Main.java
 ![Main](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/Main.png)
