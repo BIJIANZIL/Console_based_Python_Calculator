@@ -81,7 +81,7 @@ Below are the snippets of metrics result:
 # 5.Clean Code Development
 
 # 1.Modular Design
-In the calculator code,functions like add,subtract etc handle specific arithmetic operation.This aligns with the Single responsibility Principle(SRP),making the code modular and easy to maintain.Each function can be modified independently without affecting others.
+In the calculator code,functions like add,subtract etc handle specific arithmetic operation.This aligns with the Single responsibility Principle(SRP),making the code modular and easy to maintain.Each function can be modified independently without affecting others.Functions like welcome(), add() ,multiply() etc are defined with clear responsibilities.•	Inside the main loop, functions like display_menu() , get_choice(),print_result() are invoked in a sequential manner, following the flow of the calculator application.Each function encapsulates a specific part of the calculation process, making it easier to understand and maintain.
 
 # 2.Proper input validation and Error Handling
 The code includes input validation for numerical entries and handles potential errors, such as division by zero.This practice enhances user experience by providing clear feedback and prevents unexpected crashes.
