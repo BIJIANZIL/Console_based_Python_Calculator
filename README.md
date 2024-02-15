@@ -162,7 +162,7 @@ Below is the snapshhot for DSL demo:
 
 # 11.Functional Programming
 
-[1.Side Effect Free functions:](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/6b842c97f71e17f0076e62f69412e8716a2f6cd8/main.py#L18)
+[1.Side Effect Free functions:](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/6b842c97f71e17f0076e62f69412e8716a2f6cd8/main.py#L10)
 
 Side-effect free functions are functions that do not modify any external state or have observable interactions with the outside world beyond returning a value.
 In my code,most of the functions defined like add(x,y),divide(x,y) are side effect free.These functions only perform calculations or formatting without interacting with external resources or modifying any global state.
@@ -173,41 +173,68 @@ def add(x, y):
 ```
 
 
-[2.Use of Higher order functions:](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/6b842c97f71e17f0076e62f69412e8716a2f6cd8/main.py#L78)
+[2.Use of Higher order functions:]
 
-Regarding the use of higher-order functions, my code doesn't explicitly use higher-order functions. I have used dictionary (operations) to map user choices to corresponding functions. Although not a typical use of higher-order functions like map, filter, or reduce,the concept of higher-order functions involves functions that can accept other functions as arguments or return functions as results. The dictionary operations is essentially a mapping of operations to functions,  allowing them to be stored in data structures and passed around.
+Regarding the use of higher-order functions, my code doesn't explicitly use higher-order functions. Below ,i am showing code snippet explicitly from code the use of Higher order functions.
+Here apply_operation() is a higher-order function that takes an operation function (add, subtract, multiply, or divide) and two numbers as arguments, and then applies the operation function to the numbers.
 
 ```
-operations = {
-    '1': add,
-    '2': subtract,
-    '3': multiply,
-    '4': divide,
-    '5': power,
-    '6': square_root,
-    '7': modulus
-}
+# Define a higher-order function that takes a function as input
+def apply_operation(operation, x, y):
+    return operation(x, y)
+
+# Define some basic arithmetic functions
+def add(x, y):
+    return x + y
+
+def subtract(x, y):
+    return x - y
+
+def multiply(x, y):
+    return x * y
+
+def divide(x, y):
+    if y != 0:
+        return x / y
+    else:
+        return "Error: Cannot divide by zero"
+
+# Usage example: Pass different operation functions to apply_operation
+result_add = apply_operation(add, 5, 3)
+print("Result of addition:", result_add)
+
+result_subtract = apply_operation(subtract, 8, 2)
+print("Result of subtraction:", result_subtract)
+
+result_multiply = apply_operation(multiply, 4, 6)
+print("Result of multiplication:", result_multiply)
+
+result_divide = apply_operation(divide, 10, 2)
+print("Result of division:", result_divide)
+
 ```
 
 # [3.Functions as parameters and return values:]
 
-In this code ,I didnt incorporate functions as parameters and return values.But I can incorporate as following,in which one way is to allow users to specify a custom function for certain operations.Within the main() function , we can prompt the user if they want to use a custom operation and accept the function from the user.
+In the perform_operation function , it take three parameters 'choice', 'num1', and 'num2' and returns the result of the operation, which is calculated using the appropriate function (add, subtract, multiply, divide, power, square_root, or modulus).
 
 ```
-def custom_operation(x, y, operation_func):
-    return operation_func(x, y)
-```
-
-# [Functions as Return Values:]
-I can define  a function that returns different operations based on certain conditions:Si ,it can return functions as values.
-
-```
-def get_operation(choice):
+# Function to perform the selected operation
+def perform_operation(choice, num1, num2):
     if choice == '1':
-        return add
+        return add(num1, num2)
     elif choice == '2':
-        return subtract
-    # Other operations...
+        return subtract(num1, num2)
+    elif choice == '3':
+        return multiply(num1, num2)
+    elif choice == '4':
+        return divide(num1, num2)
+    elif choice == '5':
+        return power(num1, num2)
+    elif choice == '6':
+        return square_root(num1)
+    elif choice == '7':
+        return modulus(num1, num2)
 ```
 
 As my main code doesnt include all these function, I wrote another code illustrationg following points:
