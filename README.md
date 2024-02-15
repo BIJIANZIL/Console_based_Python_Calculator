@@ -49,31 +49,31 @@ To use the calculator, follow these steps:
 # 1.[**Use Case Diagram**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/usecasediagram.png)
 Here ,I have used lucid chart to basically design the Use Case Diagram.Here this basically gives the rough/basic structure of my project.It is actually a visual representation of how users interact with teh system.It shows the different use cases and different types of users the system has.In this project ,some use cases are performing calculations,view calculation history,handling invalid input etc.
 
-![Image](usecasediagram.png)
+![Image](WorkProcess/usecasediagram.png)
 
 # 2.[**Activity Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/activitydiagram.png)
 Activity diagram clearly shows every single step taken within this use case diagram,It represents the flow of control in the system and refer to the steps involved in the execution of each use case.In the activity diagram ,I have shown the control flow from start point to a finish point showing various decision paths that exit while activity is being executed.
 
-![Image1](WorkProcess/usecasediagram.png)
+![Image1](WorkProcess/activitydiagram.png)
 
 # 3.[**Sequence Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/sequencediagram.png)
 In sequence diagram,communication between objects is illustrated using messages and we represent messages using arrows and represent the interaction between the objects in the order in which these interactions occur.
 
-![Image2](sequencediagram.png)
+![Image2](WorkProcess/sequencediagram.png)
 
 
 # 3.DDD
 
-![Image](domaindiagram.png)
+![Image](WorkProcess/domaindiagram.png)
 
 # 4.METRICS
 
 SonarQube is a code review tool that systematically helps us deliver Clean Code.It checks for bugs and vulnerabilities in the project and provide recommendations to resolve the code smells.
 Below are the snippets of metrics:
 
-![Image](Sonarqube1.png)
+![Image](WorkProcess/Sonarqube1.png)
 
-![Image](SonarQube2.png)
+![Image](WorkProcess/SonarQube2.png)
 
 # 5.Clean Code Development
 
@@ -107,9 +107,9 @@ Write comprehensive unit tests to verify the correctness of code and catch bugs 
 To understand build management, I have selected Gradle build automation tool that supports multiple languages . It controls the development process in the tasks of compilation and packaging to testing,deployment and publishing.I set up a simple project in IntelliJ IDEA IDE running "Hello, World!" program in Java and used Groovy DSL (scripting build configurations ) and  generated documentation, and run the tests.
 
 First I have created a new Gradle Project with Java as language and created Java class and wrote main.java program to print "Hello, World!".And wrote test class -MainTest to check if it is functioning properly.Understanding build.gradle-here is where is we define our project's configuration, dependencies, and tasks. IntelliJ IDEA provides excellent support for Gradle projects. Gradle provides tasks for running tests, such as the test task. We can execute this task to run all the tests in our project.<br/>
-![gradlebuild](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/gradlebuild.png)
-![Main](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/Main.png)
-![Test](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/Test.png)
+![gradlebuild](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/gradlebuild.png)
+![Main](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/Main.png)
+![Test](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/Test.png)
 
 <br/>Reference:[https://github.com/BIJIANZIL/Console_based_Python_Calculator/gradle-demo](https://github.com/BIJIANZIL/gradledemo.git) <br/>
 
@@ -118,13 +118,13 @@ First I have created a new Gradle Project with Java as language and created Java
 
 # 7.Continous Delivery
 Continous Integration is implemented by using GitHub Actions
-![ci](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/ci.png)
+![ci](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/ci.png)
 
 
 # 8.Unit Tests
 Unit test was also performed using Gradle on the same Java program.<br/>
-![Test](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/Test.png)
-![classmaintestresult](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/classmaintestresult.png)
+![Test](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/Test.png)
+![classmaintestresult](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/classmaintestresult.png)
 
 
 # 9.IDE
@@ -145,7 +145,7 @@ Run in cmd by python daily_expense.py expense_tracker.dsl
 
 Below is the snapshhot for DSL demo:
 
-![dsldemo](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/dsldemoscript.png)
+![dsldemo](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/dsldemoscript.png)
 
 
 
