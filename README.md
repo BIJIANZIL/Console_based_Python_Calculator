@@ -94,14 +94,17 @@ This separation of concerns makes it easier to manage errors and handle them gra
 ![ss3](WorkProcess/ss3.png)
 
 # 3.Descriptive names for variables and functions.
-Variable names like num1 ,num2 and functions like add,subtract are clear and convey their purpose.This improves the code's self-documenting nature,reducing the need for excessive comments.The function names clearly indicate their purpose, such as perform_operation(), save_calculation(), view_calculation_history(), etc.
+Variable names like num1 ,num2 and functions like add,subtract are clear and convey their purpose.This improves the code's self-documenting nature,reducing the need for excessive comments.With more descriptive names, it's easier to understand the purpose of each variable and function in the code, such as do_another_calculation(),  view_calculation_history(), etc.
 Developers can easily understand the role of variables and functions without deep analysis.
+
+![ss4](WorkProcess/ss4.png)
 
 # 4.User-Friendly Interface.
 The program provides clear prompts and messages to guide the user through each step of the calculation process.It also offers the option to view calculation history enhancing the overall user experience.
 
 # 5.Comments
 Although the code is self-explanatory,few comments have been added to help someone understand the easiest way possible.
+![ss5](WorkProcess/ss5.png)
 
 # 6.Separation of concerns:
 Different concerns such as user input handling, menu display, operation execution, and calculation history management are separated into distinct functions. This promotes code organization and maintainability.
