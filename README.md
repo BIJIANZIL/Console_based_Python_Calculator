@@ -64,11 +64,14 @@ In sequence diagram,communication between objects is illustrated using messages 
 
 # 3.DDD
 
-![Image](WorkProcess/domaindiagram.png)
+In Domain Driven Design,it emphasis on the importance of understanding the problem space of software and incorporating that understanding in to design and ifnally impelmenting in the software.Domain model represents the core concepts and entities within the domain.
+In this project as my domain is too small,I have added prepared DDD daiagram based on some future additions in the software.
+
+![Image](WorkProcess/Domainchart.png)
 
 # 4.METRICS
 
-SonarQube is a code review tool that systematically helps us deliver Clean Code.It checks for bugs and vulnerabilities in the project and provide recommendations to resolve the code smells.
+SonarQube is a code review tool that systematically helps us deliver Clean Code.It checks for bugs and vulnerabilities in the project and provide recommendations to resolve the code smells.Finding the correct JDK which supports the sonarqube version is crucial in installing the Sonarqube for testing,after several insatalltions,I could finally able to run it.
 Below are the snippets of metrics:
 
 ![Image](WorkProcess/Sonarqube1.png)
