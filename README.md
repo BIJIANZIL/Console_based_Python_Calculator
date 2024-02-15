@@ -38,7 +38,7 @@ To use the calculator, follow these steps:
 >> Enter operation: 4
 >> Enter first number: 10
 >> Enter second number: 0
->> Error: Cannot divide by zero. Please enter a valid divisor.
+>> Error: Cannot divide by zero. 
 
 >> Enter operation: 9
 >> Exiting Calculator. Goodbye
@@ -47,7 +47,7 @@ To use the calculator, follow these steps:
 # 2.UML
 
 # 1.[**Use Case Diagram**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/usecasediagram.png)
-Here ,I have used lucid chart to basically design the Use Case Diagram.Here this basically gives the rough/basic structure of my project.It is actually a visual representation of how users interact with teh system.It shows the different use cases and different types of users the system has.In this project ,some use cases are performing calculations,view calculation history,handling invalid input etc.
+Here ,I have used lucid chart to basically design the Use Case Diagram.Here this basically gives the rough/basic structure of my project.It is actually a visual representation of how users interact with the system.It shows the different use cases and different types of users the system has.In this project ,some use cases are performing calculations,view calculation history,handling invalid input etc.
 
 ![Image](WorkProcess/usecasediagram.png)
 
@@ -57,22 +57,22 @@ Activity diagram clearly shows every single step taken within this use case diag
 ![Image1](WorkProcess/activitydiagram.png)
 
 # 3.[**Sequence Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/sequencediagram.png)
-In sequence diagram,communication between objects is illustrated using messages and we represent messages using arrows and represent the interaction between the objects in the order in which these interactions occur.
+In the sequence diagram,communication between objects is illustrated using messages and we represent messages using arrows and represent the interaction between the objects in the order in which these interactions occur.
 
 ![Image2](WorkProcess/sequencediagram.png)
 
 
 # 3.DDD
 
-In Domain Driven Design,it emphasis on the importance of understanding the problem space of software and incorporating that understanding in to design and ifnally impelmenting in the software.Domain model represents the core concepts and entities within the domain.
-In this project as my domain is too small,I have added prepared DDD daiagram based on some future additions in the software.
+In Domain Driven Design,it emphasis on the importance of understanding the problem space of software and incorporating that understanding in to design and finally impelmenting in the software.Domain model represents the core concepts and entities within the domain.
+In this project as my domain is too small,I have prepared DDD daiagram based on some future additions in the software.
 
 ![Image](WorkProcess/Domainchart.png)
 
 # 4.METRICS
 
-SonarQube is a code review tool that systematically helps us deliver Clean Code.It checks for bugs and vulnerabilities in the project and provide recommendations to resolve the code smells.Finding the correct JDK which supports the sonarqube version is crucial in installing the Sonarqube for testing,after several insatalltions,I could finally able to run it.
-Below are the snippets of metrics:
+SonarQube is a code review tool that systematically helps us deliver Clean Code.It checks for bugs and vulnerabilities in the project and provide recommendations to resolve the code smells.Different versions of  sonarqube and finding the right JDK which supports seems litte difficult while  installation of  Sonarqube.We could easily track bugs,code smells ,Duplicated lines,Vulnerabilities etc.
+Below are the snippets of metrics result:
 
 ![Image](WorkProcess/Sonarqube1.png)
 
@@ -103,15 +103,17 @@ Different concerns such as user input handling, menu display, operation executio
 
 Write comprehensive unit tests to verify the correctness of code and catch bugs early in the development process. Automated testing helps ensure code reliability and maintainability.
 
-
-
-
 # 6.Build Management
 To understand build management, I have selected Gradle build automation tool that supports multiple languages . It controls the development process in the tasks of compilation and packaging to testing,deployment and publishing.I set up a simple project in IntelliJ IDEA IDE running "Hello, World!" program in Java and used Groovy DSL (scripting build configurations ) and  generated documentation, and run the tests.
 
-First I have created a new Gradle Project with Java as language and created Java class and wrote main.java program to print "Hello, World!".And wrote test class -MainTest to check if it is functioning properly.Understanding build.gradle-here is where is we define our project's configuration, dependencies, and tasks. IntelliJ IDEA provides excellent support for Gradle projects. Gradle provides tasks for running tests, such as the test task. We can execute this task to run all the tests in our project.<br/>
-![gradlebuild](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/gradlebuild.png)
+First I have created a new Gradle Project with Java as language and created Java class and wrote main.java program to print "Hello, World!".And wrote test class -MainTest to check if it is functioning properly.Understanding build.gradle- here is where is we define our project's configuration, dependencies, and tasks. IntelliJ IDEA provides excellent support for Gradle projects. Gradle provides tasks for running tests, such as the test task. We can execute this task to run all the tests in our project.<br/> . I have generated documents as well(./gradlew Javadoc)
+# Build.gradle
+![gradlebuild](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/gradlebuild.png
+
+# Main.java
 ![Main](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/Main.png)
+
+# MainTest.java
 ![Test](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/Test.png)
 
 <br/>Reference:[https://github.com/BIJIANZIL/Console_based_Python_Calculator/gradle-demo](https://github.com/BIJIANZIL/gradledemo.git) <br/>
@@ -131,8 +133,10 @@ Unit test was also performed using Gradle on the same Java program.<br/>
 
 
 # 9.IDE
-Eventhough most frequently used IDE is Jupyter Notebook,here I would like to get fluent with Pycharm.
-Below are the most favourite shortkeys I would liekto mention.
+Eventhough most frequently used IDE is Jupyter Notebook & Visula Studio,here have done using  Pycharm. I have found features like syntax highlighting,refactoring,debugging more interesting.Also Pycharm includes features like codeassistance like code completion ,navigation.
+Below are the most favourite shortkeys I would liek to mention.
+![Shortkeys-Pycharm](WorkProcess/Shortkeys-Pycharm.PNG)
+
 
 
 
