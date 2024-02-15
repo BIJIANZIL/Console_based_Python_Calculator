@@ -51,12 +51,12 @@ Here ,I have used lucid chart to basically design the Use Case Diagram.Here this
 
 ![Image](WorkProcess/usecasediagram.png)
 
-# 2.[**Activity Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/activitydiagram.png)
+# 2.[**Activity Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/activitydiagram.png)
 Activity diagram clearly shows every single step taken within this use case diagram,It represents the flow of control in the system and refer to the steps involved in the execution of each use case.In the activity diagram ,I have shown the control flow from start point to a finish point showing various decision paths that exit while activity is being executed.
 
 ![Image1](WorkProcess/activitydiagram.png)
 
-# 3.[**Sequence Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/sequencediagram.png)
+# 3.[**Sequence Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/sequencediagram.png)
 In the sequence diagram,communication between objects is illustrated using messages and we represent messages using arrows and represent the interaction between the objects in the order in which these interactions occur.
 
 ![Image2](WorkProcess/sequencediagram.png)
