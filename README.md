@@ -83,9 +83,15 @@ Below are the snippets of metrics result:
 # 1.Modular Design
 In the calculator code,functions like add,subtract etc handle specific arithmetic operation.This aligns with the Single responsibility Principle(SRP),making the code modular and easy to maintain.Each function can be modified independently without affecting others.Functions like welcome(), add() ,multiply() etc are defined with clear responsibilities.•	Inside the main loop, functions like print_menu(),  get_numbers_from_user(), perform_operation(), print_result(), save_calculation(), do_another_calculation(), and view_calculation_history() are invoked in a sequential manner, following the flow of the calculator application. Each function encapsulates a specific part of the calculation process, making it easier to understand and maintain.
 
+![ss1](WorkProcess/ss1.png)
+
+![ss2](WorkProcess/ss2.png)
+
 # 2.Proper input validation and Error Handling
 The code includes input validation for numerical entries and handles potential errors, such as division by zero.This practice enhances user experience by providing clear feedback and prevents unexpected crashes.Error handling logic is encapsulated within functions, such as in the get_numbers_from_user() function where ValueError is caught for invalid user input.
 This separation of concerns makes it easier to manage errors and handle them gracefully without cluttering the main calculation logic.
+
+![ss3](WorkProcess/ss3.png)
 
 # 3.Descriptive names for variables and functions.
 Variable names like num1 ,num2 and functions like add,subtract are clear and convey their purpose.This improves the code's self-documenting nature,reducing the need for excessive comments.The function names clearly indicate their purpose, such as perform_operation(), save_calculation(), view_calculation_history(), etc.
