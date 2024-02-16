@@ -91,7 +91,7 @@ In the calculator code,functions like add,subtract etc handle specific arithmeti
 The code includes input validation for numerical entries and handles potential errors, such as division by zero.This practice enhances user experience by providing clear feedback and prevents unexpected crashes.Error handling logic is encapsulated within functions, such as in the get_numbers_from_user() function where ValueError is caught for invalid user input.
 This separation of concerns makes it easier to manage errors and handle them gracefully without cluttering the main calculation logic.
 
-![ss3](WorkProcess/ss3.png)
+![ss3](WorkProcess/SS6.png)
 
 # 3.Descriptive names for variables and functions.
 Variable names like num1 ,num2 and functions like add,subtract are clear and convey their purpose.This improves the code's self-documenting nature,reducing the need for excessive comments.With more descriptive names, it's easier to understand the purpose of each variable and function in the code, such as do_another_calculation(),  view_calculation_history(), etc.
