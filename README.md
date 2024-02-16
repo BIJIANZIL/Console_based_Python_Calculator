@@ -141,8 +141,9 @@ Unit test was also performed using Gradle on the same Java program.<br/>
 
 
 # 9.IDE
-Eventhough most frequently used IDE is Jupyter Notebook & Visula Studio,here have done using  Pycharm. I have found features like syntax highlighting,refactoring,debugging more interesting.Also Pycharm includes features like codeassistance like code completion ,navigation.
-Below are the most favourite shortkeys I would liek to mention.
+Eventhough most frequently used IDE is Visual Studio Code & Jupiter Notebook,here I wanted to get familiarised with Pycharm as well. I have found features like syntax highlighting,refactoring,debugging more interesting.Also Pycharm includes features like  code completion ,navigation.
+Below are the most favourite shortkeys I would like to mention.
+
 ![Shortkeys-Pycharm](WorkProcess/Shortkeys-Pycharm.PNG)
 
 
@@ -155,7 +156,7 @@ While I was learning about DSL,I found this info most suitable for the understan
 Domain Specific Languages allow us to capture complex business requirements in code written in the language of the customer.Once an ubiquitous language between you and your customer is defined and implemented as DSL,the code can quite literally be given back to the customer to edit and refine.
 
 Here I have made a [daily expense tracker](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/expense_tracker.dsl.txt) to record expenses ,view it and calculate the total expense with DSL and the Python code[daily_expense](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/daily_expense.py) .
-Run in cmd by python daily_expense.py expense_tracker.dsl
+Run in cmd by python "daily_expense.py expense_tracker.dsl"
 
 
 Below is the snapshhot for DSL demo:
