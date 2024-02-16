@@ -180,8 +180,8 @@ def add(x, y):
 
 [2.Use of Higher order functions:]
 
-Regarding the use of higher-order functions, my code doesn't explicitly use higher-order functions. Below ,i am showing code snippet explicitly from code the use of Higher order functions.
-Here apply_operation() is a higher-order function that takes an operation function (add, subtract, multiply, or divide) and two numbers as arguments, and then applies the operation function to the numbers.
+Regarding the use of higher-order functions, my code doesn't explicitly use higher-order functions. Below ,i am showing code snippet explicitly explaining the use of Higher order functions.
+Here "**apply_operation() " ** is a higher-order function that takes an operation function (add, subtract, multiply, or divide) and two numbers(x & y) as arguments, and then applies the operation function to the numbers.This allows us to re-use the code ,we can easily switch between different operations without modifying "**apply_operation() " ** itself.
 
 ```
 # Define a higher-order function that takes a function as input
@@ -219,85 +219,10 @@ print("Result of division:", result_divide)
 
 ```
 
-# [3.Functions as parameters and return values:]
 
-In the perform_operation function , it take three parameters 'choice', 'num1', and 'num2' and returns the result of the operation, which is calculated using the appropriate function (add, subtract, multiply, divide, power, square_root, or modulus).
+As my main code doesnt include all these function, I wrote another code covering the all functional aspects :
+Side effect free functions,use of higher order functions,functions as parameters and return values ,use closures.
 
-```
-# Function to perform the selected operation
-def perform_operation(choice, num1, num2):
-    if choice == '1':
-        return add(num1, num2)
-    elif choice == '2':
-        return subtract(num1, num2)
-    elif choice == '3':
-        return multiply(num1, num2)
-    elif choice == '4':
-        return divide(num1, num2)
-    elif choice == '5':
-        return power(num1, num2)
-    elif choice == '6':
-        return square_root(num1)
-    elif choice == '7':
-        return modulus(num1, num2)
-```
 
-As my main code doesnt include all these function, I wrote another code illustrationg following points:
-
-# [Only final data stuctures:] 
-
-Illustrating the  power of functions in performing different operations on a list of numbers, focusing only on the final data structures.
-
-```
-# Define a list of numbers
-numbers = [1, 2, 3, 4, 5]
-
-# Define a list of operations
-operations = [
-    lambda numbers: sum(numbers),                  # Sum of numbers
-    lambda numbers: eval('*'.join(map(str, numbers))),   # Product of numbers
-    lambda numbers: [num ** 2 for num in numbers]  # Square of each number
-]
-
-# Perform operations on the list of numbers
-results = [operation(numbers) for operation in operations]
-
-# Print the results
-print("Results:")
-for result in results:
-    print(result)
-```
-
-# [Use of closures/anonymous functions]:
-
-Below is an example using closures and anonymous functions (lambda functions):
-
-```
-# Define a list of numbers
-numbers = [1, 2, 3, 4, 5]
-
-# Define a list of operations using closures and anonymous functions
-def sum_operation(numbers):
-    return sum(numbers)
-
-def product_operation(numbers):
-    return eval('*'.join(map(str, numbers)))
-
-def square_operation(numbers):
-    return [num ** 2 for num in numbers]
-
-operations = [
-    lambda numbers: sum_operation(numbers),      # Sum of numbers
-    lambda numbers: product_operation(numbers),  # Product of numbers
-    lambda numbers: square_operation(numbers)    # Square of each number
-]
-
-# Perform operations on the list of numbers
-results = [operation(numbers) for operation in operations]
-
-# Print the results
-print("Results:")
-for result in results:
-    print(result)
-```
+[Sample Code:]()
 
