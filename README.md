@@ -220,8 +220,8 @@ print("Result of division:", result_divide)
 ```
 
 
-As my main code doesnt include all these functional aspects, I wrote another code covering  all the functional aspects :
-(Side effect free functions,use of higher order functions,functions as parameters and return values ,use closures.)
+As my main code doesnt include all of these functional aspects, I wrote another code covering  all the functional aspects :
+(Side effect free functions,use of higher order functions,functions as parameters and return values ,use of closures.)
 
 
 [Sample Code:](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/Sample.py)
