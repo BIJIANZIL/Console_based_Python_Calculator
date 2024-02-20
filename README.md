@@ -46,10 +46,10 @@ To use the calculator, follow these steps:
 ``````
 # 2.UML
 
-# 1.[**Use Case Diagram**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/usecasediagram.png)
+# 1.[**Use Case Diagram**](WorkProcess/Ausecasediagram.jpg)
 Here ,I have used lucid chart to basically design the Use Case Diagram.Here this basically gives the rough/basic structure of my project.It is actually a visual representation of how users interact with the system.It shows the different use cases and different types of users the system has.In this project ,some use cases are performing calculations,view calculation history,handling invalid input etc.
 
-![Image](WorkProcess/Ausecasediagram.png)
+![Image](WorkProcess/Ausecasediagram.jpg)
 
 # 2.[**Activity Diagram:**](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/activitydiagram.png)
 Activity diagram clearly shows every single step taken within this use case diagram,It represents the flow of control in the system and refer to the steps involved in the execution of each use case.In the activity diagram ,I have shown the control flow from start point to a finish point showing various decision paths that exit while activity is being executed.
