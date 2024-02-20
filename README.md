@@ -71,7 +71,7 @@ User Management deals with the user authentication and profile managemnet within
 Each core domain contains subdomains representing specific functionalities within that domain. For example, "Calculator Logic" has subdomains for basic arithmetic operations and advanced functions.
 Generic domain includes common functionalities that are shared across different core domains. It includes components like "Identity Management", "Authorization", "Payment Processing", and "UI/UX Design
 
-![Image](WorkProcess/Domainchart.png)
+![DDD](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/DDD.jpg)
 
 # 4.METRICS
 
