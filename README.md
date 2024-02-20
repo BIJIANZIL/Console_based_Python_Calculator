@@ -66,6 +66,10 @@ In the sequence diagram,communication between objects is illustrated using messa
 
 In Domain Driven Design,it emphasis on the importance of understanding the problem space of software and incorporating that understanding in to design and finally impelmenting in the software.Domain model represents the core concepts and entities within the domain.
 In this project as my domain is too small,I have prepared DDD daiagram based on some future additions in the software.
+My core domains are Calculator Logic,User Management ,Sales and Subscription. Calculator Logic domain handles the calculation logic of calculator application ,which includes components aas basis arithmetic operations and Advanced Functions.
+User Management deals with the user authentication and profile managemnet within the application.Sales and subscription domain focus on sales activities and subscription plans for the calculator application.
+Each core domain contains subdomains representing specific functionalities within that domain. For example, "Calculator Logic" has subdomains for basic arithmetic operations and advanced functions.
+Generic domain includes common functionalities that are shared across different core domains. It includes components like "Identity Management", "Authorization", "Payment Processing", and "UI/UX Design
 
 ![Image](WorkProcess/Domainchart.png)
 
