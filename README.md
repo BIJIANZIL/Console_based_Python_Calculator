@@ -65,7 +65,7 @@ In the sequence diagram,communication between objects is illustrated using messa
 # 3.DDD
 
 In Domain Driven Design,it emphasis on the importance of understanding the problem space of software and incorporating that understanding in to design and finally impelmenting in the software.Domain model represents the core concepts and entities within the domain.
-In this project as my domain is too small,I have prepared DDD daiagram based on some future additions in the software.
+In this project as my domain is too small,I have prepared DDD daiagram assuming my calculator ias a selling point ,I have conducted even storming and found out various domains and then core domain chart and finally done the mapping relations.
 
 # A.Eventstorming and Identifying Domains
 ![Eventstorming](https://github.com/BIJIANZIL/Console_based_Python_Calculator/blob/main/WorkProcess/Eventstorming.jpg)
